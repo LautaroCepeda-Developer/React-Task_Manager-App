@@ -1,0 +1,39 @@
+.task__container {
+	min-height: 3em;
+	width: 90%;
+	margin-top: 0.3em;
+	margin-bottom: 0.6em;
+	background: #201d3d67;
+	backdrop-filter: blur(4px);
+	border: solid #201d3d 1px;
+	-webkit-backdrop-filter: blur(4px);
+	box-shadow: 0px 0px 26px 8px #00000038;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: flex;
+	user-select: none;
+}
+
+.task__container.finished {
+	text-decoration: line-through;
+	color: #3d1d1d;
+	background: #3d1d1d67;
+	border: solid #3d1d1d 1px;
+}
+
+.task__text {
+	display: flex;
+	color: #f0f0f0;
+	width: 100%;
+	flex-direction: row;
+	overflow-wrap: anywhere;
+	margin-left: 0.5em;
+	align-items: center;
+	font-size: 1.3em;
+}
+
+.task__icon {
+	width: 1.3em;
+	height: 1.3em;
+	margin: 0.2em;
+}

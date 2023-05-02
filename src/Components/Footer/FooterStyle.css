@@ -1,0 +1,14 @@
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	min-height: auto;
+	background: #00000040;
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	color: #61dafb;
+	text-align: center;
+	font-size: 1em;
+}
